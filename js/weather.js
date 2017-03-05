@@ -33,4 +33,4 @@ function getWeather() {
 
 $(document).ready(function () {
     setInterval(getWeather, 10000);
-});
+}); 
