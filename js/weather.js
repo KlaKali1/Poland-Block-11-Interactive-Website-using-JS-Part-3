@@ -1,5 +1,5 @@
 function getWeather() {
-    if ('geolocation' in navigator) {
+    if ("geolocation" in navigator) {
         navigator.geolocation.getCurrentPosition(function (position) {
             loadWeather(position.coords.latitude + ',' + position.coords.longitude);
         });
