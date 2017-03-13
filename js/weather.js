@@ -15,7 +15,7 @@ $(document).ready(function () {
 function loadWeather(location, woeid) {
     $.simpleWeather ({
         location: location,
-        woeid: woeid,
+        woeid: '',
         unit: 'C',
         success: function (weather) {
             city = weather.city;
