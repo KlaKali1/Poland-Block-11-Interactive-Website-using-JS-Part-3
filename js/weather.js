@@ -13,7 +13,7 @@ $(document).ready(function () {
 });
 
 function loadWeather(location, woeid) {
-    $(.simpleWeather) ({
+    $.simpleWeather ({
         location: location,
         woeid: woeid,
         unit: 'C',
